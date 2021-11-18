@@ -34,14 +34,15 @@
     font-size: 15vh;
     color: ivory;
     text-align: right;
-    object-fit: contain;
-    padding-right: 15px;
+    padding-right: 55px;
     vertical-align: middle;
+    object-fit: contain;
 }
 
 .articleText{
     flex: 4;
     padding: 15px;
+    font-size: 2vh;
 }
 
 .articleImage{
@@ -57,9 +58,10 @@ article{
 
 #titleBackground{
     background-image: url('./img/headerImage.jpg');
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: fill;
 }
 
 .articleImage > img{
